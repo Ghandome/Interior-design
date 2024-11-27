@@ -19,6 +19,10 @@ header {
     margin-top: 20px;
 }
 
+.fa-solid {
+    display: none;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -549,7 +553,7 @@ li {
     width: 600px;
     text-align: center;
     position: relative;
-    left: 320px;
+    left: 250px;
 }
 
 .news h4 {
@@ -685,4 +689,415 @@ li {
     position: relative;
     bottom: 595px;
     left: 800px;
+}
+
+@media screen and (max-width: 700px) {
+    ul {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .fa-solid {
+        display: block;
+    }
+
+    .hero-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        margin-top: 100px;
+    }
+
+    .sub-hero-page  h1 {
+        font-size: 50px;
+        font-weight: 500;
+        
+    }
+
+    .sub-hero-page p {
+        font-size: 10px;
+        line-height: 30px;
+        margin-top: 20px;
+        font-weight: 500;
+        margin-right: 500px;
+    }
+    
+    .counts {
+        margin-right: 750px;
+        gap: 50px;
+        width: 100px;
+        margin-top: 70px;
+    }
+
+    .sub-hero-page button {
+        margin-top: 40px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 10px;
+        width: 130px;
+        height: 45px;
+        font-weight: 700;
+        border: none;
+    }
+
+    .counts h2 {
+        color: rgba(84, 84, 84, 1);
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .counts p {
+        font-weight: 400;
+        color: rgba(84, 84, 84, 1);
+        font-size: 10px;
+    }
+
+    .Interior-img .Interior-1 {
+        display: none;
+    }
+
+    .Interior-image-2 .Interior-2 {
+        display: none;
+    }
+
+
+    .arrow {
+        display: none;
+    }
+    
+    .rectangles {
+        display: none;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+
+    }
+
+    .service-text {
+        font-weight: 600;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+
+    .horizontal-line {
+        width: 50px;
+        border-top: 5px solid black;
+        margin-top: 100px;
+        margin-right: 150px;
+    }
+
+    .service-tabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+        
+    }
+
+    .light-tab h3, .interior-tab h3, .outdoor-tab h3 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-right: 600px;
+    }
+
+    .light-tab p, .interior-tab p, .outdoor-tab p {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 40px;
+        margin-top: 19px;
+        margin-right: 40px;
+    }
+
+    .design-display {
+        width: 1085px;
+        height: 425px;
+        margin-left: 100px;
+        margin-top: 1000px;
+    }
+    
+    
+    .tab-icon1 img, .tab-icon2 img, .tab-icon3 img {
+        width: 30px;
+        margin-right: 250px;
+    }
+
+    .tab-icon1 img {
+        position: absolute;
+        right: 730px;
+        bottom: 620px;
+    }
+
+    .tab-icon2 img {
+        position: absolute;
+        right: 730px;
+    }
+    
+    .tab-icon3 img {
+        position: absolute;
+        right: 730px;
+    }
+
+    .design-display {
+        width: 1085px;
+        height: 425px;
+        margin-left: 100px;
+        margin-top: 830px;
+    }
+    
+    .enquiry {
+        width: 700px;
+        position: absolute;
+        left: 180px;
+        top: 1500px;
+        margin-top: 700px;
+    }
+
+    .mask {
+        width: 300px;
+        margin-left: 100px;
+    }
+
+
+    .enquiry h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .enquiry > p {
+        color: rgba(84, 84, 84, 1);
+        font-size: 10px;
+        font-weight: 500;
+        padding-top: 30px;
+        line-height: 20px;
+    }
+
+    .room-tab {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        width: 300px;
+        height: 70px;
+    }
+
+    .room-tab p {
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 300px;
+        width: 600px;
+    }
+    
+    .room-tab img {
+        position: absolute;
+        left: 300px;
+        width: 10px;
+        top: 205px;
+    }
+
+    .office-tab {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        height: 85px;
+        width: 300px;
+    }
+    
+    .office-tab p {
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 300px;
+        width: 600px;
+    }
+    
+    .office-tab img {
+        width: 10px;
+        position: absolute;
+        left: 300px;
+    }
+    
+    .shelf img {
+        width: 300px;
+    }
+    
+    .shelf {
+        position: relative;
+        top: 230px;
+        left: 100px;
+        width: 360px;
+    }
+
+    .design-step {
+        width: 1000px;
+        margin-left: 70px;
+        height: 500px;
+    }
+    
+    .icon-steps img {
+        background-color: black;
+        margin-left: 10px;
+        margin-top: 70px;
+        border-radius: 50px;
+        width: 59px;
+        padding: 10px;
+    }
+
+    .icon-steps {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 80px;
+        align-items: center;
+    }
+    
+    .design-step h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    
+
+    .Project-p1 p{
+        font-size: 10px;
+        color: rgba(84, 84, 84, 1);
+        line-height: 15px;
+        font-weight: 600;
+        padding-top: 20px;
+        position: absolute;
+        bottom: 170px;
+    }
+    
+    .Project.p1, h4 {
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 230px;
+    }
+    .Project-p2 h4 {
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        bottom: 120px;
+    }
+
+    .Project-p3 h4 {
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        top: 30px;
+    }
+    
+    .Project-p2 p {
+        font-size: 10px;
+        color: rgba(84, 84, 84, 1);
+        line-height: 15px;
+        font-weight: 600;
+        padding-top: 20px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .Project-p3 p {
+        font-size: 10px;
+        color: rgba(84, 84, 84, 1);
+        line-height: 15px;
+        font-weight: 600;
+        padding-top: 40px;
+        position: absolute;
+        top: 25px;
+    }
+
+    .design-steps{
+        margin-top: 700px;
+    }
+
+    .customer-comment {
+        display: none;
+       
+    }
+    
+    .newsletter {
+        margin-top: 850px;
+        width: 300px;
+        position: relative;
+        left: 200px;
+    }
+
+    .news h4 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+        margin-top: 30px;
+    }
+    
+    .news p {
+        font-size: 12px;
+        font-weight: 500;
+        color: rgba(84, 84, 84, 1);
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    
+    #fill {
+        width: 300px;
+        height: 40px;
+        box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.14);
+        position: relative;
+        right:  32px;
+    }
+
+    .subs {
+        position: relative;
+        left: 126px;
+        bottom: 59px;
+        width: 80px;
+        height: 39px;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        border: none;
+    }
+
+    .footer-service2 {
+        position: relative;
+        left: 100px;
+        bottom: 100px;
+    }
+
+    .address h6 {
+        color: rgba(255, 255, 255, 1);
+        position: relative;
+        bottom: 302px;
+        left: 350px;
+    }
+
+    .address p {
+        color: rgba(209, 209, 209, 1);
+        position: relative;
+        bottom: 300px;
+        left: 250px;
+    }
+
+    .footer-service {
+        position: relative;
+        left: 350px;
+        bottom: 180px;
+    }
+    
+    
 }
